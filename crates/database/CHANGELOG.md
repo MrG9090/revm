@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [15.1.0](https://github.com/MrG9090/revm/compare/revm-database-v15.0.2...revm-database-v15.1.0) - 2026-05-30
+
+### Added
+
+- *(database)* add conditional bundle update builder ([#3729](https://github.com/MrG9090/revm/pull/3729))
+
 ## [15.0.2](https://github.com/bluealloy/revm/compare/revm-database-v15.0.1...revm-database-v15.0.2) - 2026-05-26
 
 ### Added

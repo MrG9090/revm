@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [12.1.2](https://github.com/MrG9090/revm/compare/revm-database-interface-v12.1.1...revm-database-interface-v12.1.2) - 2026-05-30
+
+### Other
+
+- updated the following local packages: revm-state
+
 ## [12.1.1](https://github.com/bluealloy/revm/compare/revm-database-interface-v12.1.0...revm-database-interface-v12.1.1) - 2026-05-26
 
 ### Added

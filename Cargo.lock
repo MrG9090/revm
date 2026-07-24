@@ -3877,7 +3877,7 @@ dependencies = [
 
 [[package]]
 name = "revm"
-version = "42.0.1"
+version = "42.1.0"
 dependencies = [
  "revm-bytecode",
  "revm-context",
@@ -3911,7 +3911,7 @@ dependencies = [
 
 [[package]]
 name = "revm-context"
-version = "42.0.0"
+version = "43.0.0"
 dependencies = [
  "bitvec",
  "cfg-if",
@@ -3927,7 +3927,7 @@ dependencies = [
 
 [[package]]
 name = "revm-context-interface"
-version = "42.0.0"
+version = "42.0.1"
 dependencies = [
  "alloy-eip2930",
  "alloy-eip7702",
@@ -3941,7 +3941,7 @@ dependencies = [
 
 [[package]]
 name = "revm-database"
-version = "42.0.0"
+version = "42.0.1"
 dependencies = [
  "alloy-eips",
  "alloy-provider",
@@ -3959,7 +3959,7 @@ dependencies = [
 
 [[package]]
 name = "revm-database-interface"
-version = "42.0.0"
+version = "42.1.0"
 dependencies = [
  "auto_impl",
  "corosensei",
@@ -3981,7 +3981,7 @@ dependencies = [
 
 [[package]]
 name = "revm-handler"
-version = "42.0.1"
+version = "42.1.0"
 dependencies = [
  "alloy-signer",
  "alloy-signer-local",
@@ -4001,7 +4001,7 @@ dependencies = [
 
 [[package]]
 name = "revm-inspector"
-version = "42.0.1"
+version = "42.0.2"
 dependencies = [
  "auto_impl",
  "either",
@@ -4018,7 +4018,7 @@ dependencies = [
 
 [[package]]
 name = "revm-interpreter"
-version = "42.0.0"
+version = "42.0.1"
 dependencies = [
  "revm-bytecode",
  "revm-context-interface",
@@ -4030,7 +4030,7 @@ dependencies = [
 
 [[package]]
 name = "revm-precompile"
-version = "42.0.1"
+version = "42.0.2"
 dependencies = [
  "ark-bls12-381",
  "ark-bn254",
@@ -4082,7 +4082,7 @@ dependencies = [
 
 [[package]]
 name = "revm-statetest-types"
-version = "42.0.0"
+version = "42.0.1"
 dependencies = [
  "alloy-eip7928 0.4.0",
  "k256",
@@ -4098,7 +4098,7 @@ dependencies = [
 
 [[package]]
 name = "revme"
-version = "42.0.1"
+version = "42.0.2"
 dependencies = [
  "alloy-rlp",
  "alloy-sol-types",
@@ -5560,6 +5560,15 @@ name = "windows-sys"
 version = "0.52.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "282be5f36a8ce781fad8c8ae18fa3f9beff57ec1b52cb3de0789201425d9a33d"
+dependencies = [
+ "windows-targets 0.52.6",
+]
+
+[[package]]
+name = "windows-sys"
+version = "0.59.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e38bc4d79ed67fd075bcc251a1c39b32a1776bbe92e5bef1f0bf1f8c531853b"
 dependencies = [
  "windows-targets 0.52.6",
 ]
